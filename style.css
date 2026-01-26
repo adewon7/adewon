@@ -1918,6 +1918,23 @@ body.dark-mode .about-section p {
 .nav-links a {
   text-decoration: none;
 }
+.navbar {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+}
+
+.nav-links {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+}
+
+.nav-links a,
+.site-title {
+  white-space: nowrap;
+}
+
 
 
 
