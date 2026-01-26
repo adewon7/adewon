@@ -1,3 +1,7 @@
+img {
+  max-width: 100%;
+  height: auto;
+}
 /* Default (mobile) */
 body {
   padding: 20px;
@@ -1929,6 +1933,7 @@ body.dark-mode .about-section p {
 .download-btn:hover {
   background-color: #0056b3;
 }
+
 
 
 
