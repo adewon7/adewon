@@ -2013,18 +2013,11 @@ header nav a {
   gap: 20px;
 }
 
-/* Hamburger icon hidden on desktop */
-.hamburger {
-  display: none;
-  font-size: 1.5rem;
-  cursor: pointer;
-}
-
 /* Mobile styles */
 @media (max-width: 768px) {
   .nav-links {
     position: absolute;
-    top: 70px;
+    top: 40px;
     right: 0;
     background-color: #fff;
     flex-direction: column;
@@ -2038,15 +2031,11 @@ header nav a {
     width: 100%;
   }
 
-  .hamburger {
-    display: block;
-  }
-}
-
 /* Show nav when active */
 .nav-links.active {
   display: flex;
 }
+
 
 
 
