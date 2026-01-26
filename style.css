@@ -1,36 +1,3 @@
-img {
-  max-width: 100%;
-  height: auto;
-}
-/* Default (mobile) */
-body {
-  padding: 20px;
-  font-size: 16px;
-}
-
-header img {
-  max-width: 100%;
-  height: auto;
-}
-/* Tablet */
-@media (min-width: 768px) {
-  .home-section {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-}
-img {
-  max-width: 100%;
-  height: auto;
-}
-/* Desktop */
-@media (min-width: 1024px) {
-  .home-section h1 {
-    font-size: 2.5rem;
-  }
-}
-
 /* Reset and Base Styles */
 html {
   scroll-behavior: smooth;
@@ -896,6 +863,8 @@ body.dark-mode .about-right h2 {
   margin-right: 6px;
 }
 .hero-section {
+  height: 90vh;
+  display: flex;
   align-items: center;
   background: var(--card-bg);
   text-align: center;
@@ -1931,69 +1900,4 @@ body.dark-mode .about-section p {
 .download-btn:hover {
   background-color: #0056b3;
 }
-header {
-  display: flex;
-  align-items: center; /* vertically center logo and nav */
-  justify-content: space-between; /* logo on left, nav on right */
-  padding: 0 20px; /* optional spacing */
-  height: 80px; /* adjust as needed */
-}
 
-header .logo {
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-
-header nav {
-  display: flex;
-  gap: 20px; /* space between menu items */
-}
-
-header nav a {
-  text-decoration: none;
-  color: #000; /* adjust as needed */
-  font-weight: 500;
-  font-size: 1rem;
-}
-/* Navbar container */
-.navbar {
-  display: flex;
-  align-items: center; /* vertically center items */
-  justify-content: space-between; /* site-title left, nav-links right */
-  padding: 0 20px; /* optional horizontal padding */
-  height: 70px; /* adjust if needed */
-  background-color: #fff; /* optional */
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* optional */
-}
-
-/* Site title/logo */
-.navbar .site-title {
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-
-/* Navigation links container */
-.navbar .nav-links {
-  display: flex;
-  align-items: center; /* vertically center nav items */
-  gap: 20px; /* spacing between each link */
-}
-
-/* Individual nav links */
-.navbar .nav-links a {
-  text-decoration: none;
-  color: #000; /* adjust to your theme */
-  font-weight: 500;
-  font-size: 1rem;
-  transition: color 0.3s;
-}
-
-.navbar .nav-links a:hover {
-  color: #007bff; /* optional hover color */
-}
-
-/* Theme toggle */
-.navbar .nav-links .switch {
-  margin-left: 20px; /* space between links and toggle */
-  
-}
