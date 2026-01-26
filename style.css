@@ -1955,3 +1955,45 @@ header nav a {
   font-weight: 500;
   font-size: 1rem;
 }
+/* Navbar container */
+.navbar {
+  display: flex;
+  align-items: center; /* vertically center items */
+  justify-content: space-between; /* site-title left, nav-links right */
+  padding: 0 20px; /* optional horizontal padding */
+  height: 70px; /* adjust if needed */
+  background-color: #fff; /* optional */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* optional */
+}
+
+/* Site title/logo */
+.navbar .site-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Navigation links container */
+.navbar .nav-links {
+  display: flex;
+  align-items: center; /* vertically center nav items */
+  gap: 20px; /* spacing between each link */
+}
+
+/* Individual nav links */
+.navbar .nav-links a {
+  text-decoration: none;
+  color: #000; /* adjust to your theme */
+  font-weight: 500;
+  font-size: 1rem;
+  transition: color 0.3s;
+}
+
+.navbar .nav-links a:hover {
+  color: #007bff; /* optional hover color */
+}
+
+/* Theme toggle */
+.navbar .nav-links .switch {
+  margin-left: 20px; /* space between links and toggle */
+}
+
