@@ -1952,4 +1952,11 @@ body.dark-mode .about-section p {
     text-align: center;
   }
 }
+@media (max-width: 768px) {
+  #home {
+    margin-top: 220px;
+  }
+}
+
+
 
