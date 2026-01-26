@@ -1933,3 +1933,23 @@ body.dark-mode .about-section p {
 .download-btn:hover {
   background-color: #0056b3;
 }
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 10px;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 15px;
+  }
+
+  .site-title,
+  .logo {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+}
+
