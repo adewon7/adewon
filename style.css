@@ -8,6 +8,25 @@ header img {
   max-width: 100%;
   height: auto;
 }
+/* Tablet */
+@media (min-width: 768px) {
+  .home-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+/* Desktop */
+@media (min-width: 1024px) {
+  .home-section h1 {
+    font-size: 2.5rem;
+  }
+}
+
 /* Reset and Base Styles */
 html {
   scroll-behavior: smooth;
@@ -1910,5 +1929,6 @@ body.dark-mode .about-section p {
 .download-btn:hover {
   background-color: #0056b3;
 }
+
 
 
