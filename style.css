@@ -1977,6 +1977,28 @@ body.dark-mode .about-section p {
     margin-top: 0;
   }
 }
+/* MOBILE HEADER FIX ONLY */
+@media (max-width: 768px) {
+  .navbar,
+  nav {
+    padding: 12px 16px;
+  }
+
+  .site-title {
+    font-size: 20px;
+  }
+
+  .nav-links {
+    gap: 12px;
+  }
+
+  /* Push home content below fixed header */
+  #home {
+    padding-top: 120px;
+  }
+}
+
+
 
 
 
